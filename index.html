@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embedded Website</title>
+    <style>
+      .new {
+        margin: 5px;
+        padding: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Embedded Website</h2>
+
+    <p>Here's an iframe :</p>
+
+    <div class="new">
+      <iframe
+        width="350"
+        height="900"
+        src="https://devdojo.website"
+        frameborder="2px"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>
+
+<!--  
+    this iframe will be used for payment in SwiftKrt, so no payment API will be used 
+    reason: for good payment APIs, trade license and other documents are required at the time of registration, that's why a payment page by Cosmofeed will be used and that page will be embedded in the SwiftKrt (Customer have to enter the total billing amount in that webpage and then can process the payment.) 
+ -->
